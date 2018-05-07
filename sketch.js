@@ -115,6 +115,7 @@ var Yak;
 var Zebra;
 
 function preload() {
+    getAudioContext().resume();
 	//sounds
 	AS = loadSound("sounds/gator.wav");
 	BS = loadSound("sounds/bear.wav");

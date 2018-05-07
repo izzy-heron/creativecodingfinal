@@ -149,7 +149,7 @@ function preload() {
   Cat = loadImage("cat.png");
   Dog = loadImage("dog.png");
   Elephant = loadImage("elephant.png");
-	Fox = loadImage("fox.png");
+  Fox = loadImage("fox.png");
   Goat = loadImage("goat.png");
   Horse = loadImage("horse.png");
   Ibis = loadImage("ibis.png");

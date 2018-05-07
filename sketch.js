@@ -264,7 +264,7 @@ function draw() {
 }
 
 
-function mouseClicked(){
+function mouseClicked(){ //check for button clicks
 	aObject.clicked();
 	bObject.clicked();
 	cObject.clicked();
@@ -293,14 +293,14 @@ function mouseClicked(){
 	zObject.clicked();
 }
  
-function verticalText(input, x, y) {
+function verticalText(input, x, y) { //function that draws vertical text
   var output = "";  // create an empty string
   for (var i = 0; i < input.length; i += 1) {
     output += input.charAt(i) + "\n"; // add each character with a line break in between
   }
   push(); // use push and pop to restore style (in this case the change in textAlign) after displaing the text 
   textAlign(CENTER, TOP); // center the characters horizontaly with CENTER and display them under the provided y with TOP
-	textSize(20);
+	textSize(20);//sets text size to 20
   text(output, x, y); // display the text
   pop();
 }
